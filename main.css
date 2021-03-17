@@ -120,7 +120,7 @@ a:not([class]):hover {
 }
 .friend-box {
   min-width: calc(50% - 20px);
-  max-width: calc(50% - 20px);
+  max-width: 428px;
   height: 128px;
   background-color: #ffd602;
   float: left;
