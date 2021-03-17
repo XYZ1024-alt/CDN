@@ -120,6 +120,7 @@ a:not([class]):hover {
 }
 .friend-box {
   min-width: calc(50% - 20px);
+  max-width: calc(50% - 20px);
   height: 128px;
   background-color: #ffd602;
   float: left;
@@ -142,45 +143,6 @@ a:not([class]):hover {
 .friend-info-contain {
   padding-top: 23px;
   padding-left: 1.5rem;
-}
-.gridea-search-container {
-  margin-left: 10px;
-  margin-right: 7px;
-  float: right;
-}
-.gridea-search-container .gridea-search-input {
-  height: 30px;
-  width: 200px;
-  box-sizing: border-box;
-  padding: 0 15px 0 30px;
-  border: 1px solid #e3e3e3;
-  border-radius: 15px;
-  color: #273849;
-  outline: none;
-  transition: border-color 0.2s ease;
-  background: #fff url(../media/images/search.svg) 8px 5px no-repeat;
-  background-size: 20px;
-  vertical-align: middle !important;
-  background-color: #181a1b;
-}
-#gridea-search-result {
-  padding: 150px;
-}
-#gridea-search-result {
-  text-align: center;
-  color: #81a5f8;
-}
-.cc-all {
-  margin-top: 14px;
-  background-color: #333334;
-  padding-left: 20px;
-}
-.cc {
-  list-style: none;
-}
-.cc li {
-  list-style: none;
-  font-size: 15px;
 }
 
       body {
